@@ -1,0 +1,35 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: transparent;
+}
+
+body{
+    background-color: hsl(208, 83%, 53%);
+}
+
+h3,.color-title{
+    color: whitesmoke;
+    background-color: rgb(58, 55, 55);
+    display: inline;
+}
+
+main{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.color-title{
+    font: 700;
+    font-size: 35px;
+}
+
+.color,.btn{
+    background-color: transparent;
+    font-size: 32px;
+}
